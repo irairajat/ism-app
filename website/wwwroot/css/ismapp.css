@@ -1,0 +1,70 @@
+.ism_header{
+    border-bottom:  1px solid #c3c8ce;
+    max-width: 100%;
+}
+
+.ism_header_main_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+}
+
+.ism_header_main_box a img{
+    max-width: 200px;
+}
+
+.ism-home-banner{
+    max-width: 95%;
+}
+
+.ism-home-banner-box{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.banner-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+}
+
+/* Optional: Add a semi-transparent overlay */
+.video-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* 40% transparent black */
+    z-index: 1;
+}

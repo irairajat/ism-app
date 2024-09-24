@@ -28,3 +28,4 @@ C:\Users\RajatRai\Desktop\ism_app\website\bin\Debug\net8.0\website.runtimeconfig
 C:\Users\RajatRai\Desktop\ism_app\website\bin\Debug\net8.0\website.pdb
 C:\Users\RajatRai\Desktop\ism_app\website\obj\Debug\net8.0\website.genruntimeconfig.cache
 C:\Users\RajatRai\Desktop\ism_app\website\obj\Debug\net8.0\ref\website.dll
+C:\Users\RajatRai\Desktop\ism_app\website\obj\Debug\net8.0\website.sourcelink.json

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\website.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\charkha-to-chips.png",
+      "PackagePath": "staticwebassets\\charkha-to-chips.png"
+    },
+    {
       "Id": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\css\\ismapp.css",
       "PackagePath": "staticwebassets\\css\\ismapp.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\home-video.mp4",
+      "PackagePath": "staticwebassets\\home-video.mp4"
     },
     {
       "Id": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\js\\site.js",

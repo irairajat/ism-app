@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iyHonCi3Zprk/Ds84OVZwCgpCDyWUgOgct19lMi92Lk=",
+  "Hash": "3nIQ2zr0YgMsmctT8UPk5Q5dlc2avYPf/Uemifuk16I=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\website.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\charkha-to-chips.png",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "charkha-to-chips.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\charkha-to-chips.png"
     },
     {
       "Identity": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\css\\ismapp.css",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\home-video.mp4",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "home-video.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home-video.mp4"
     },
     {
       "Identity": "C:\\Users\\RajatRai\\Desktop\\ism_app\\website\\wwwroot\\js\\site.js",

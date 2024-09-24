@@ -13,17 +13,21 @@
     <link rel="stylesheet" href="~/css/ismapp.css">
 </head>
 <body>
-    @Html.Partial("_Header.cshtml")
-    <div class="menu" style="height: 50px;">
+    <div class="ism-main">
+        @Html.Partial("_Header.cshtml")
 
+        <div class="container">
+            @Html.Partial("_Menu.cshtml")
+            @Html.Partial("_Home.cshtml")
+        </div>
+
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
-
-    @Html.Partial("_Home.cshtml")
-
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    
 </body>
 </html>

@@ -1,70 +1,83 @@
-.ism_header{
-    border-bottom:  1px solid #c3c8ce;
-    max-width: 100%;
-}
-
-.ism_header_main_box{
+.ism-header-content-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 30px 0px 30px;
+}
+.ism-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
 }
 
-.ism_header_main_box a img{
-    max-width: 200px;
+.ism-logo{
+    width: 300px;
 }
 
-.ism-home-banner{
-    max-width: 95%;
+.meity-logo {
+    width: 200px;
 }
 
-.ism-home-banner-box{
+.dic-logo{
+    width: 150px;
+}
+
+.ism-banner-box{
     position: relative;
     width: 100%;
-    height: 70vh;
-    overflow: hidden;
-    border-radius: 10px;
+    height: 400px;
+    border-radius: 5px;
 }
 
-.banner-video{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 1;
-    object-fit: cover;
-}
-
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    color: white;
-    text-align: center;
-}
-
-.banner-content h1 {
-    font-size: 4rem;
-}
-
-.banner-content p {
-    font-size: 1.5rem;
-}
-
-/* Optional: Add a semi-transparent overlay */
-.video-banner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+.ism-banner-media{
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* 40% transparent black */
-    z-index: 1;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.ism-banner-content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 2;
+    color: #212529;
+}
+
+.ism-home-marquee{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: #ffffff;
+} 
+
+.ism-home-marquee-content{
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.ism-home-marquee-content h5{
+    color: #e9cd0b;
+    padding-right: 10px;
+}
+
+.ism-home-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ism-home-about-box{
+    width: 500px;
+}
+
+.ism-home-about-media img{
+    width: 100%;
+}
+
+.ism-home-about-content{
+    width: 100%;
 }
